@@ -18,8 +18,7 @@ Originally developed for the [RTX Batch Upscaler – Image & Video workflow on C
 
 1. Download this repository as a ZIP using **Code → Download ZIP**, or clone it.
 2. Place the folder containing `__init__.py` and `nodes.py` in `ComfyUI/custom_nodes/ComfyUI-SaveOriginalImage`.
-3. Remove the older `ComfyUI-SaveOriginalJPG` installation, if present, to prevent duplicate node registration.
-4. Restart ComfyUI.
+3. Restart ComfyUI.
 
 The node uses Pillow and NumPy, which are normally included in ComfyUI. If either is missing, install it in **ComfyUI's own Python environment**.
 
@@ -52,11 +51,10 @@ Find **Save Image Original Name (JPG / PNG)** in the `image/save` category.
 
 ## Compatibility
 
-The internal node identifier remains `SaveOriginalJPG` to keep existing workflows compatible. Display name: `Save Image Original Name (JPG / PNG)`.
 
 ## Issues and contributions
 
-Please use the repository's **Issues** tab to report problems. Include your ComfyUI version, steps to reproduce, and the relevant error message (without private file paths or secrets).
+Please use the repository's **Issues** tab to report problems. Include your ComfyUI version, steps to reproduce, and the relevant error message (without private file paths).
 
 ## License
 
