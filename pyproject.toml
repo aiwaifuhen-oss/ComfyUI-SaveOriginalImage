@@ -1,0 +1,14 @@
+
+[project]
+name = "comfyui-saveoriginalimage"
+description = "Save JPG and PNG images with their original filenames and image previews in ComfyUI."
+version = "1.1.1"
+license = { file = "LICENSE" }
+dependencies = ["Pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/aiwaifuhen-oss/ComfyUI-SaveOriginalImage"
+
+[tool.comfy]
+PublisherId = "aiwaifuhen-oss"
+DisplayName = "Save Original Image (JPG / PNG)"
